@@ -4,7 +4,11 @@
 
 ## Build generated
 build/
+<<<<<<< HEAD
 DerivedData/
+=======
+DerivedData
+>>>>>>> 1be7daf183bc3bd38705066bf8a99d19215c0e99
 
 ## Various settings
 *.pbxuser
@@ -15,11 +19,21 @@ DerivedData/
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
+<<<<<<< HEAD
 xcuserdata/
 
 ## Other
 *.moved-aside
 *.xcuserstate
+=======
+xcuserdata
+
+## Other
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+>>>>>>> 1be7daf183bc3bd38705066bf8a99d19215c0e99
 
 ## Obj-C/Swift specific
 *.hmap
@@ -45,7 +59,11 @@ Carthage/Build
 # It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the 
 # screenshots whenever they are needed.
 # For more information about the recommended setup visit:
+<<<<<<< HEAD
 # https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Gitignore.md
+=======
+# https://github.com/fastlane/fastlane/blob/master/docs/Gitignore.md
+>>>>>>> 1be7daf183bc3bd38705066bf8a99d19215c0e99
 
 fastlane/report.xml
 fastlane/screenshots
