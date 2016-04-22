@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  NeteaseNews
+//
+//  Created by 王若曦 on 16/3/28.
+//  Copyright © 2016年 wrx. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef DEBUG
+#define RXLog(...) NSLog(__VA_ARGS__)
+#else
+#define RXLog(...)
+#endif
+
+#import "UIView+Frame.h"
+#import <PureLayout.h>
+
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+
+#endif /* PrefixHeader_pch */

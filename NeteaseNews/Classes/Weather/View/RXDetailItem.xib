@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="RXDetailItem">
+            <rect key="frame" x="0.0" y="0.0" width="125" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="星期日" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6zH-dN-yx0">
+                    <rect key="frame" x="37" y="8" width="51" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NtY-Fi-4GA">
+                    <rect key="frame" x="37" y="37" width="50" height="75"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="75" id="45K-sZ-J1j"/>
+                        <constraint firstAttribute="width" constant="50" id="U2u-Qe-BSZ"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="17°/16°" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="duE-wB-QSd">
+                    <rect key="frame" x="38" y="120" width="49" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="微风" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pID-sA-Cpb">
+                    <rect key="frame" x="47.5" y="172" width="30" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="晴天" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GUV-Zj-6Xw">
+                    <rect key="frame" x="47" y="146" width="30" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="NtY-Fi-4GA" firstAttribute="top" secondItem="6zH-dN-yx0" secondAttribute="bottom" constant="8" id="6UT-B1-38P"/>
+                <constraint firstItem="NtY-Fi-4GA" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Aeo-Fh-F2A"/>
+                <constraint firstItem="6zH-dN-yx0" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="DTA-1p-lLI"/>
+                <constraint firstItem="pID-sA-Cpb" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="K3e-Qj-srt"/>
+                <constraint firstItem="GUV-Zj-6Xw" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="bUF-2x-3CC"/>
+                <constraint firstItem="duE-wB-QSd" firstAttribute="top" secondItem="NtY-Fi-4GA" secondAttribute="bottom" constant="8" id="fVc-Bv-2V4"/>
+                <constraint firstItem="pID-sA-Cpb" firstAttribute="top" secondItem="GUV-Zj-6Xw" secondAttribute="bottom" constant="8" id="ifa-Ua-sBr"/>
+                <constraint firstItem="GUV-Zj-6Xw" firstAttribute="top" secondItem="duE-wB-QSd" secondAttribute="bottom" constant="8" id="l2O-EL-iue"/>
+                <constraint firstItem="duE-wB-QSd" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="olm-fP-lEF"/>
+                <constraint firstItem="6zH-dN-yx0" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="td8-Es-AbM"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>
