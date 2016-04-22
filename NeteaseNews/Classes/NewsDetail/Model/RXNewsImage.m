@@ -20,6 +20,8 @@
     return self;
 }
 
+- (void)setValue:(id)value forUndefinedKey:(NSString *)key {}
+
 + (instancetype)imageWithDict:(NSDictionary *)dict {
     
     return [[self alloc] initWithDictionary:dict];
